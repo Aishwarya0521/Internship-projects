@@ -1,0 +1,42 @@
+.page{
+    padding:20px;
+    width:250px;
+}
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color:white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:9px 1px;
+    cursor: pointer;
+}
+
+.check{
+    padding:10px;
+    margin:0px 5px;
+    
+}
+.cancelbtn{
+    background-color: rgb(235, 20, 20);
+    color:whitesmoke;
+    padding:10px 18px ;
+    text-align:left;
+    font-size:12px;
+    width:auto;
+}
+.loader {
+    border: 16px solid grey;
+    border-radius: 50%;
+    animation: spin 1s ease delay iteration-count direction fill-mode;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
